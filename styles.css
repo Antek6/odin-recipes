@@ -36,9 +36,9 @@
 
 
 
-.text-center{
+.text-center {
     text-align: center;
-} 
+}
 
 
 .maindiv {
@@ -53,15 +53,22 @@
     margin-left: auto;
     margin-right: auto;
 
-    height: auto; 
-    width: 90%; 
-    max-width: 500px; 
+    height: auto;
+    width: 90%;
+    max-width: 500px;
     max-height: 500px;
     object-fit: contain;
+    margin-bottom: 8px;
+    margin-top: 8px;
 
 }
 
+.img-center.background {
+    border: 3px solid black;
+    border-radius: 10px;
 
+    -webkit-box-shadow: 8px 8px 22px -11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 22px -11px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 22px -11px rgba(66, 68, 90, 1);
 
-
-
+}
