@@ -54,9 +54,9 @@
     margin-right: auto;
 
     height: auto; 
-    width: auto; 
-    max-width: 250px; 
-    max-height: 250px;
+    width: 90%; 
+    max-width: 500px; 
+    max-height: 500px;
     object-fit: contain;
 
 }
