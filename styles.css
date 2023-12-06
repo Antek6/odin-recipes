@@ -4,6 +4,9 @@
     border: 3px solid black;
     border-radius: 10px;
     padding: 15px 32px;
+    min-width: 180px;
+    max-width: 200px;
+    width: auto;
     font-size: 19px;
     box-shadow: 4px 4px rgb(20, 20, 20, 0.6);
     /* -webkit-text-stroke: 2px black; */
@@ -11,6 +14,14 @@
     font-weight: 600;
     font-family: sans-serif;
 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 
@@ -22,13 +33,35 @@
     box-shadow: 4px 4px rgb(20, 20, 20, 0.6);
 }
 
-/* .center {
-    border: none;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-  }
+
+
 
 .text-center{
     text-align: center;
-} */
+} 
+
+
+.maindiv {
+    border: none;
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+    object-fit: contain;
+
+}
+
+
+
+
+
